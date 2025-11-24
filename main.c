@@ -8,16 +8,16 @@
 #endif
 #include "funcs.h"
 
-void print_menu(void) {
-    printf("\n===========================\n");
+void print_menu(void) {  
     printf("       ENGINEERING TOOLKIT    \n");
+    printf("\n===========================\n");
     printf("1) Unit Converter\n");
     printf("2) Circuit Helper\n");
     printf("3) Signal Analyzer\n");
     printf("4) About\n");
     printf("9) Exit\n");
     printf("--------------\n");
-    printf("Select option: ");
+    printf("Select option:");
 }
 
 int main(void) {
@@ -32,9 +32,9 @@ int main(void) {
             case 2: menu_item_2(); break;
             case 3: menu_item_3(); break;
             case 4: menu_item_4(); break;
-            case 9: printf("Exiting...\n"); break;
+            case 9: printf("Exiting program\n"); break;
             default:
-                printf("Invalid choice, try again.\n");
+                printf("Invalid input,please try again.\n");
                 break;
         }
     }

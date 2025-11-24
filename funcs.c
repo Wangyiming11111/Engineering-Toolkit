@@ -152,7 +152,6 @@ void menu_item_3(void) {
 }
 
 void menu_item_4(void) {
-    printf("\n--- ABOUT ---\n");
-    printf("Engineering Toolkit v1.0\n");
-    printf("Built for ELEC2645 Unit 2 Project\n");
+    printf("Engineering Toolkit\n");
+    printf("Built for ELEC2645 assignment\n");
 }
